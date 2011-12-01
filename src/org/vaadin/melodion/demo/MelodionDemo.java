@@ -21,7 +21,6 @@ public class MelodionDemo extends Application {
 
     private ComponentContainer melodion() {
         Melodion melodion = new Melodion();
-        // melodion.setWidth(20, Sizeable.UNITS_EM);
 
         Tab templates = melodion.addTab(new Label("Templates"));
         templates.addButton(new NativeButton("Site-wide templates"));
